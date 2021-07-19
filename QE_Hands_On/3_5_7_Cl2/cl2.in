@@ -1,0 +1,31 @@
+&control
+	calculation = "relax"
+	prefix = "cl2",
+	forc_conv_thr = 1.d-5,
+	etot_conv_thr = 1.d-8,
+	pseudo_dir = "./",
+	outdir = "./"
+/
+
+&system
+	ibrav = 1,
+	celldm(1) = 20.0,
+	nat = 2,
+	ntyp = 1,
+	ecutwfc = 100,
+/
+
+&electrons
+/
+
+&ions
+/
+
+ATOMIC_SPECIES
+Cl 1.0 Cl.pz-bhs.UPF
+
+ATOMIC_POSITIONS bohr
+Cl 0.00 0.00 0.00
+Cl 5.00 0.00 0.00
+
+K_POINTS gamma
