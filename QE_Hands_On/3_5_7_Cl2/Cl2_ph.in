@@ -1,0 +1,9 @@
+vibrations of Cl2
+&inputph
+prefix = "Cl2",
+amass(1) = 35.45,
+outdir = "./",
+fildyn = "Cl2.dyn",
+/
+0.0 0.0 0.0
+EOF

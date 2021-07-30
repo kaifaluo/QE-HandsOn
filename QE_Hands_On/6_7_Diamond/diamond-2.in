@@ -1,0 +1,35 @@
+&control
+calculation = "relax"
+prefix = "diamond",
+pseudo_dir = "./",
+outdir = "./"
+/
+
+&system
+ibrav = 0,
+celldm(1) = 6.66407,
+nat = 2,
+ntyp = 1,
+ecutwfc = 100.0,
+/
+
+&electrons
+/
+
+&ions
+/
+
+ATOMIC_SPECIES
+C 1.0 C.pz-vbc.UPF
+
+ATOMIC_POSITIONS crystal
+C 0.00 0.00 0.00
+C 0.25 0.25 0.25
+
+K_POINTS automatic
+6 6 6 1 1 1
+
+CELL_PARAMETERS
+-0.501 -0.000 0.498
+ 0.000  0.501 0.498
+-0.501  0.501 0.000
