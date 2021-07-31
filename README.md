@@ -161,3 +161,14 @@ where the solid and dashed lines denote $nq1=nq2=nq3=2$ and $nq1=nq2=nq3=4$, res
 
 
 
+## 9 Band structure and Fermi surface
+
+### Silicon
+
+
+### Copper
+
+
+## 10 Dielectric function
+
+### Silicon

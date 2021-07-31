@@ -1,0 +1,71 @@
+
+     Program Q2R v.6.4.1 starts on 31Jul2021 at 16:39:54 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      12 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                    12
+
+     MPI processes distributed on     1 nodes
+
+     reading grid info from file dyn0    
+  reading force constants from file dyn1
+ macroscopic fields = T
+   5.70535   0.00000   0.00000
+   0.00000   5.70535   0.00000
+   0.00000   0.00000   5.70535
+  na=            1
+   2.56424   0.00000   0.00000
+   0.00000   2.56424   0.00000
+   0.00000   0.00000   2.56424
+  na=            2
+   6.82039   0.00000   0.00000
+   0.00000   6.82039   0.00000
+   0.00000   0.00000   6.82039
+  na=            3
+  -1.98357   0.00000   0.00000
+   0.00000  -5.30072   0.00000
+   0.00000   0.00000  -1.98357
+  na=            4
+  -1.98357   0.00000   0.00000
+   0.00000  -1.98357   0.00000
+   0.00000   0.00000  -5.30072
+  na=            5
+  -5.30072   0.00000   0.00000
+   0.00000  -1.98357   0.00000
+   0.00000   0.00000  -1.98357
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file dyn2
+  nqs=            3
+ q=   0.00000000  0.00000000 -0.50505051
+ q=   0.00000000 -0.50505051  0.00000000
+ q=  -0.50505051  0.00000000  0.00000000
+  reading force constants from file dyn3
+  nqs=            3
+ q=   0.00000000 -0.50505051 -0.50505051
+ q=  -0.50505051 -0.50505051  0.00000000
+ q=  -0.50505051  0.00000000 -0.50505051
+  reading force constants from file dyn4
+  nqs=            1
+ q=  -0.50505051 -0.50505051 -0.50505051
+
+      q-space grid ok, #points =    8
+
+      fft-check warning: sum of imaginary terms = 3.121827E-09
+
+     Q2R          :      0.03s CPU      0.03s WALL
+
+
+   This run was terminated on:  16:39:54  31Jul2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

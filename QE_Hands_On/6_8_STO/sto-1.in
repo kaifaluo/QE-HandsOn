@@ -1,5 +1,5 @@
 &control
-calculation = "relax"
+calculation = "scf"
 prefix = "sto",
 pseudo_dir = "./",
 outdir = "./"
@@ -10,7 +10,7 @@ ibrav = 0,
 celldm(1) = 7.2266,
 nat = 5,
 ntyp = 3,
-ecutwfc = 210.0,
+ecutwfc = 100.0,
 /
 
 &electrons
