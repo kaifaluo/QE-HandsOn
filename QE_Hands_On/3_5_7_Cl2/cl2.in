@@ -1,5 +1,5 @@
 &control
-	calculation = "relax"
+	calculation = "scf"
 	prefix = "cl2",
 	forc_conv_thr = 1.d-5,
 	etot_conv_thr = 1.d-8,
@@ -26,6 +26,6 @@ Cl 1.0 Cl.pz-bhs.UPF
 
 ATOMIC_POSITIONS bohr
 Cl 0.00 0.00 0.00
-Cl 5.00 0.00 0.00
+Cl 3.715 0.00 0.00
 
 K_POINTS gamma

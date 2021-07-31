@@ -1,0 +1,5 @@
+&input
+fildyn = "dyn",
+flfrc = "diam.fc"
+/
+EOF

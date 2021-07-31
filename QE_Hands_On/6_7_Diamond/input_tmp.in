@@ -1,0 +1,12 @@
+this is a comment line
+&inputph
+	prefix = "diamond",
+	ldisp = .true.
+	amass(1) = 12.0107,
+	fildyn = "dyn",
+	nq1 = 2,
+	nq2 = 2,
+	nq3 = 2,
+	tr2_ph = 1.0d-14,
+/
+EOF

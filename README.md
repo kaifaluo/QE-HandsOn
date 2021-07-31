@@ -131,21 +131,25 @@ $$
 
 ### Stretching frequency of Cl2
 
-| $\delta$ | $U(d_{0})$ | $U(d_{0}+\delta)$ | $U(d_{0}-\delta)$ | $\hbar\omega$ |
-| :------: | :--------: | :---------------: | :---------------: | ------------- |
-|  0.001   |            |                   |                   |               |
-|  0.002   |            |                   |                   |               |
-|   0.01   |            |                   |                   |               |
+| $\delta$ | $U(d_{0}+\delta)/Ry$ | $U(d_{0}-\delta)/Ry$ |    $\omega/THz$   |
+| :------: | :---------------: | :---------------: | ------------- |
+|  0.001   |   -59.99059502    |    -59.99059537   |    15.07     |
+|  0.002   |   -59.99059397    |    -59.99059443   |    17.87     |
+|   0.01   |   -59.99057462    |    -59.99057380   |    14.96     |
+|  DFPT    |                   |                   |    16.62     |
 
-where we used the mass of the Cl nucleus $M=35.45u$.
-
-### Stretching frequency of Cl2 based on DFPT
-
+where $U(3.725Bohr)=-59.99059541Ry$, and we used the mass of the Cl nucleus $M=35.45u$ and
+$$
+\omega=\sqrt{\frac{2}{M\delta^{2}}[U(\delta)+U(-\delta)-2U_{0}]}.
+$$
 
 
 ### Phonon dispersion of diamond
 
+The phonon bands are shown as below:
 
+![diamond_phFre.png]()
+where the solid and dashed lines denote $nq1=nq2=nq3=2$ and $nq1=nq2=nq3=4$, respectively.
 
 ## 8 Phonons in polar crystals
 
