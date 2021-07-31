@@ -153,10 +153,8 @@ where the solid and dashed lines denote $nq1=nq2=nq3=2$ and $nq1=nq2=nq3=4$, res
 
 ## 8 Phonons in polar crystals
 
-
-
 ### GaAs
-
+![GaAs_phFre.png](https://github.com/luokf/DFT2CmptMaterialsDesign/blob/main/QE_Hands_On/8_10_GaAs/GaAs_phFre.png)
 
 
 ### SrTiO3
