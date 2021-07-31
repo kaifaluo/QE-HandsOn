@@ -158,7 +158,7 @@ where the solid and dashed lines denote $nq1=nq2=nq3=2$ and $nq1=nq2=nq3=4$, res
 
 
 ### SrTiO3
-
+![STO_phFre.png](https://github.com/luokf/DFT2CmptMaterialsDesign/blob/main/QE_Hands_On/6_8_STO/STO_phFre.png)
 
 
 ## 9 Band structure and Fermi surface
