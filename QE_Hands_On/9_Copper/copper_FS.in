@@ -1,0 +1,5 @@
+&fermi
+outdir = "./"
+prefix = "copper"
+/
+EOF

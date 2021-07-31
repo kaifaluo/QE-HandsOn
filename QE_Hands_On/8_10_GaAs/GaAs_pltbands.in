@@ -1,0 +1,6 @@
+&bands
+prefix = "gaas"
+outdir = "./"
+filband = "bands"
+/
+EOF

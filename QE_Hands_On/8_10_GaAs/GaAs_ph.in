@@ -1,0 +1,12 @@
+phonons of GaAs
+&inputph
+prefix = "gaas",
+amass(1) = 69.72,
+amass(2) = 74.92,
+epsil = .true.,
+zeu = .true.,
+fildyn = "dyn",
+tr2_ph = 1.0d-14,
+/
+0.0 0.0 0.0
+EOF

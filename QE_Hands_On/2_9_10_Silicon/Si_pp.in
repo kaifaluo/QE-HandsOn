@@ -1,0 +1,15 @@
+&inputpp
+prefix = "silicon"
+outdir = "./",
+filplot = "wavefc"
+plot_num = 7
+lsign = .true.
+kpoint = 21
+kband = 4
+/
+&plot
+iflag = 3
+output_format = 5
+fileout = "silicon.xsf"
+/
+EOF
