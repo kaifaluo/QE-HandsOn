@@ -1,0 +1,49 @@
+
+     Program POST-PROC v.6.4.1 starts on 31Jul2021 at 23:22:57 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      12 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                    12
+
+     MPI processes distributed on     1 nodes
+
+     Reading data from directory:
+     ./\silicon.save\
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         367     367    121                 4621     4621     869
+
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =  21  band =  4
+     Writing data to file  wavefc
+     Reading data from file  wavefc
+
+     Writing data to be plotted to file silicon.xsf
+     Plot Type: 3D                     Output format: XCrySDen     
+
+     POST-PROC    :      0.83s CPU      0.34s WALL
+
+
+   This run was terminated on:  23:22:57  31Jul2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
