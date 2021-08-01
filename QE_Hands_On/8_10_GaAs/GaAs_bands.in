@@ -1,0 +1,28 @@
+&control
+calculation = "bands"
+prefix = "gaas"
+pseudo_dir = "./"
+outdir = "./"
+/
+&system
+ibrav = 2
+celldm(1) = 10.4749
+nat = 2
+ntyp = 2
+ecutwfc = 40.0
+nbnd = 8
+/
+&electrons
+/
+ATOMIC_SPECIES
+Ga 1.0 Ga.pz-bhs.UPF
+As 1.0 As.pz-bhs.UPF
+ATOMIC_POSITIONS
+Ga 0.00 0.00 0.00
+As 0.25 0.25 0.25
+K_POINTS tpiba_b
+3
+0.500 0.500 0.500 20
+0.000 0.000 0.000 20
+1.000 0.000 0.000 20
+EOF

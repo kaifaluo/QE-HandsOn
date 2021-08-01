@@ -167,8 +167,16 @@ where the solid and dashed lines denote $nq1=nq2=nq3=2$ and $nq1=nq2=nq3=4$, res
 ![Si_bands.png](https://github.com/luokf/DFT2CmptMaterialsDesign/blob/main/QE_Hands_On/2_9_10_Silicon/Si_bands.png)
 
 ### Copper
+![copper_bands.png](https://github.com/luokf/DFT2CmptMaterialsDesign/blob/main/QE_Hands_On/9_copper/copper_bands.png)
+
 
 
 ## 10 Dielectric function
 
+### GaAs
+![GaAs_bands.png](https://github.com/luokf/DFT2CmptMaterialsDesign/blob/main/QE_Hands_On/8_10_GaAs/GaAs_bands.png)
+
+![GaAs_epsilon.png](https://github.com/luokf/DFT2CmptMaterialsDesign/blob/main/QE_Hands_On/8_10_GaAs/GaAs_epsilon.png)
+
 ### Silicon
+![Silicon_epsilon.png](https://github.com/luokf/DFT2CmptMaterialsDesign/blob/main/QE_Hands_On/2_9_10_Silicon/Silicon_epsilon.png)

@@ -1,6 +1,0 @@
-&bands
-prefix = "copper"
-outdir = "./"
-filband = "bands"
-/
-EOF

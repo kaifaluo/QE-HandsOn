@@ -1,0 +1,61 @@
+
+     Program epsilon v.6.4.1 starts on 31Jul2021 at 23:51:57 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      12 processor cores
+     Number of MPI processes:                 1
+     Threads/MPI process:                    12
+
+     MPI processes distributed on     1 nodes
+
+
+     Reading input file...
+     Broadcasting variables...
+     Reading PW restart file...
+
+     Reading data from directory:
+     ./\gaas.save\
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum         595     595    199                 9841     9841    1807
+
+
+
+     Fermi energy [eV] is:  0.00000
+     The system is a dielectric...
+     metalling system: redefining wmin =     0.000000
+
+     Performing eps calculation...
+
+     xx,yy,zz plasmon frequences [eV] are:    15.131517584   15.131517413   15.131517202
+
+     Writing output on file...
+
+
+     eps          :      0.50s CPU      0.09s WALL (       1 calls)
+     dipole_calc  :      0.36s CPU      0.05s WALL (     125 calls)
+
+
+     epsilon      :      1.62s CPU      0.69s WALL
+
+
+   This run was terminated on:  23:51:58  31Jul2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

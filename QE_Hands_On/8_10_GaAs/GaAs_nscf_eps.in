@@ -15,7 +15,8 @@ nosym = .true.
 noinv = .true.
 /
 &electrons
-/ATOMIC_SPECIES
+/
+ATOMIC_SPECIES
 Ga 1.0 Ga.pz-bhs.UPF
 As 1.0 As.pz-bhs.UPF
 ATOMIC_POSITIONS
