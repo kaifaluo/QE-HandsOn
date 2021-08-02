@@ -16,12 +16,16 @@ smearing = "mp"
 degauss = 0.01
 nbnd = 8
 /
+
 &electrons
 /
+
 ATOMIC_SPECIES
 Cu 63.546 Cu.pz-n-van_ak.UPF
+
 ATOMIC_POSITIONS alat
 Cu 0.00 0.00 0.00
+
 K_POINTS automatic
 30 30 30 0 0 0
 EOF

@@ -20,8 +20,10 @@ nbnd = 8
 /
 ATOMIC_SPECIES
 Cu 1.0 Cu.pz-n-van_ak.UPF
+
 ATOMIC_POSITIONS alat
 Cu 0.00 0.00 0.00
+
 K_POINTS tpiba_b
 6
 0.00 0.00 0.00 50 ! G

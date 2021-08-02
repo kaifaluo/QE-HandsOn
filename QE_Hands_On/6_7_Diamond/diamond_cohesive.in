@@ -1,0 +1,33 @@
+&control
+calculation = "scf"
+prefix = "diamond",
+pseudo_dir = "./",
+outdir = "./"
+/
+
+&system
+ibrav = 1,
+celldm(1) = 30,
+nat = 1,
+ntyp = 1,
+ecutwfc = 100.0,
+nspin = 2,
+tot_magnetization = 2.0,
+occupations = "smearing",
+degauss = 0.001,	
+/
+
+&electrons
+/
+conv_thr = 1.0d-12
+
+&ions
+/
+
+ATOMIC_SPECIES
+C 1.0 C.pz-vbc.UPF
+
+ATOMIC_POSITIONS crystal
+C 0.00 0.00 0.00
+
+K_POINTS gamma

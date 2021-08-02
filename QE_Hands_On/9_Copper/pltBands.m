@@ -5,7 +5,7 @@ nk = 251;
 nbd = size(bands_raw,1)/nk;
 klist = bands_raw(1:nk,1);
 bands = zeros(nk,nbd);
-ezero = 13.45;
+ezero = 13.3641;
 
 %kpath  =  [0.00 0.00 0.00; ...
 %            0.00 1.00 0.00; ...

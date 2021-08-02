@@ -1,0 +1,31 @@
+&control
+calculation = "scf"
+prefix = "diamond",
+pseudo_dir = "./",
+outdir = "./"
+/
+
+&system
+ibrav = 2,
+celldm(1) = 6.0,
+nat = 2,
+ntyp = 1,
+ecutwfc = 100.0,
+/
+
+&electrons
+/
+conv_thr = 1.0d-12
+
+&ions
+/
+
+ATOMIC_SPECIES
+C 1.0 C.pz-vbc.UPF
+
+ATOMIC_POSITIONS crystal
+C 0.00 0.00 0.00
+C 0.25 0.25 0.25
+
+K_POINTS automatic
+4 4 4 1 1 1

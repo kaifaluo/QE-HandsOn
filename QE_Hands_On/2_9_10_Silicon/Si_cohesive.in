@@ -1,0 +1,30 @@
+&control
+calculation = "scf",
+prefix = "silicon",
+pseudo_dir = "./",
+outdir = "./"
+/
+
+&system
+ibrav = 1,
+celldm(1) = 20.0,
+nat = 1,
+ntyp = 1,
+ecutwfc = 25.0,
+nspin = 2,
+tot_magnetization = 2.0,
+occupations = "smearing",
+degauss = 0.001
+/
+
+&electrons
+/
+
+ATOMIC_SPECIES
+Si 28.086 Si.pz-vbc.UPF
+
+ATOMIC_POSITIONS alat
+Si 0.00 0.00 0.00
+
+K_POINTS gamma
+EOF
