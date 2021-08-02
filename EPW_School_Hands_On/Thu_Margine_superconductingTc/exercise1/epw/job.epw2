@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -J job.epw2           # Job name
+#SBATCH -N 1                  # Total # of nodes
+#SBATCH --ntasks-per-node 1
+#SBATCH -t 01:00:00           # Run time (hh:mm:ss)
+#SBATCH -A EPW-SCHOOL
+#SBATCH -p small
+#SBATCH --reservation=EPW-SCHOOL-06-17-2021
+
+# Launch MPI code...
+export PATHQE=/work2/06868/giustino/EPW-SCHOOL/q-e
+
+ibrun $PATHQE/bin/epw.x -nk 1 -in epw2.in > epw2.out

@@ -15,11 +15,15 @@ occupations = "smearing",
 smearing = "mp",
 degauss = 0.01,
 /
+
 &electrons
 /
+
 ATOMIC_SPECIES
 Cu 1.0 Cu.pz-n-van_ak.UPF
+
 ATOMIC_POSITIONS alat
 Cu 0.00 0.00 0.00
+
 K_POINTS automatic
 8 8 8 1 1 1
