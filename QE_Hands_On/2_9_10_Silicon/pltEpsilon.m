@@ -11,5 +11,6 @@ axis([0,12,-150,350])
 xlabel('Electron Energy (eV)')
 ylabel('\epsilon_{1,2}')
 grid on
+legend({'\epsilon_{1}','\epsilon_{2}'})
 
 print('Silicon_epsilon','-dpng','-r300')
