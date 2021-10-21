@@ -1,0 +1,15 @@
+&input
+    asr='simple', amass(1)=28.0855,
+    flfrc='si.444.fc', fldyn='si.dyn.mat', flfrq='si.freq', fleig='si.dyn.eig', q_in_cryst_coord = .false.
+    q_in_band_form = .true.
+/
+ 9
+ 0         0         0      100
+ 0.75      0.75      0.0    1
+ 0.2500    1.0000    0.2500 100
+ 0.000     1         0.000  100
+ 0         0         0      100
+ 0.5000    0.5000    0.5000 100
+ 0         1         0      100
+ 0.5000    1.0000    0      100
+ 0.5000    0.5000    0.5000 100

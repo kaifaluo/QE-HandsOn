@@ -1,0 +1,19 @@
+--                                                                                    ZG_strf.in
+&input                                                                                 
+    asr='crystal', amass(1)= 12.011, flfrc= 'graphene.881.fc', atm_zg(1) = 'C'
+    dim1 = 40, dim2 = 40, dim3 = 1,
+    T = 300,
+    atmsf_zg_a(1,1) = 0.1361,
+    atmsf_zg_a(1,2) = 0.5482,
+    atmsf_zg_a(1,3) = 1.2266,
+    atmsf_zg_a(1,4) = 0.5971,
+    atmsf_zg_a(1,5) = 0.0,
+    atmsf_zg_b(1,1) = 0.3731,
+    atmsf_zg_b(1,2) = 3.2814,
+    atmsf_zg_b(1,3) = 13.0456,
+    atmsf_zg_b(1,4) = 41.0202,
+    atmsf_zg_b(1,5) = 0.0,
+    synch =.true., compute_error = .false.
+    incl_qA = .true.,
+    ZG_strf = .true., qpts_strf = 40000
+/

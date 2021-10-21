@@ -1,0 +1,13 @@
+&inputpp
+outdir      = './',
+prefix      = 'si_333_ZG',
+calculation = 'eps'
+/
+&energy_grid
+smeartype   = 'gauss',
+intersmear  = 0.03d0,
+wmax        = 4.5d0,
+wmin        = 0.2d0,
+nw          = 600,
+shift       = 0.0d0,
+/

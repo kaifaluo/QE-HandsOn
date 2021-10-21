@@ -1,0 +1,9 @@
+&BANDS
+ prefix  = 'si_333_ZG'
+ outdir  = './'
+ filband = 'bands.dat'
+ lsym    = .false.
+ dim1    = 3
+ dim2    = 3
+ dim3    = 3
+/

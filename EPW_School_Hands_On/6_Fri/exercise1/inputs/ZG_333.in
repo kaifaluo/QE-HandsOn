@@ -1,0 +1,8 @@
+&input
+    flfrc='si.444.fc', 
+    asr='simple', amass(1)=28.0855, atm_zg(1) = 'Si', 
+    T = 0.00, 
+    dim1 = 3, dim2= 3, dim3 = 3
+    compute_error = .true., synch =.true., error_thresh = 0.02, niters = 30000 
+    incl_qA = .false.
+/

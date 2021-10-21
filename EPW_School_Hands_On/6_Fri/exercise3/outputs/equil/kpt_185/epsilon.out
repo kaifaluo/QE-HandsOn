@@ -1,0 +1,70 @@
+TACC:  Starting up job 3034364 
+TACC:  Starting parallel tasks... 
+
+     Program epsilon v.6.7GPU starts on 30May2021 at 11:25:48 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    56 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      56
+
+
+     Reading input file...
+     Broadcasting variables...
+     Reading PW restart file...
+
+     Reading xml data from directory:
+
+     ./si_333_equil.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          46      46     12                 1544     1544     223
+     Max          48      48     13                 1547     1547     229
+     Sum        2587    2587    721                86547    86547   12627
+ 
+     Using Slab Decomposition
+ 
+
+
+     Fermi energy [eV] is:  6.09081
+     The system is a dielectric...
+     metallic system: redefining wmin =     0.200000
+
+     Performing eps calculation...
+
+     xx,yy,zz plasmon frequences [eV] are:     8.729096424    8.811862992    9.570216960
+
+     Writing output on file...
+
+
+     eps          :      0.11s CPU      0.15s WALL (       1 calls)
+     dipole_calc  :      0.04s CPU      0.05s WALL (       1 calls)
+ 
+ 
+     epsilon      :      0.29s CPU      0.37s WALL
+
+ 
+   This run was terminated on:  11:25:49  30May2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+TACC:  Shutdown complete. Exiting. 

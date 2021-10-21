@@ -1,0 +1,54 @@
+TACC:  Starting up job 3033868 
+TACC:  Starting parallel tasks... 
+
+     Program BANDS v.6.7GPU starts on 30May2021 at 10:10:28 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     8 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+
+     Reading xml data from directory:
+
+     ./si_333_ZG.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PZ
+                           (   1   1   0   0   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         322     322    100                10818    10818    1884
+     Max         324     324    101                10819    10819    1887
+     Sum        2587    2587    805                86547    86547   15089
+ 
+     Using Slab Decomposition
+ 
+     Reading collected, re-writing distributed wavefunctions
+     high-symmetry point:  0.0000 2.5714 0.0000   x coordinate   0.0000
+
+     Plottable bands (eV) written to file bands.dat.gnu
+     Bands written to file bands.dat
+ 
+     BANDS        :      0.09s CPU      0.13s WALL
+
+ 
+   This run was terminated on:  10:10:28  30May2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+TACC:  Shutdown complete. Exiting. 

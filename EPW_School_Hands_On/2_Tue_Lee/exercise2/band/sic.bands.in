@@ -1,0 +1,4 @@
+&BANDS
+  prefix = 'sic'
+  lsym   = .false.
+/

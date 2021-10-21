@@ -1,0 +1,12 @@
+&input
+  flin = 'energies_weights.dat'
+  steps = 4725,
+  ksteps = 200,
+  esteps = 200,
+  kmin = 0,
+  kmax = 0.9714,
+  emin =  3.00
+  emax = 9.00
+  flspfn = 'spectral_function.dat'
+/
+

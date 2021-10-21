@@ -1,0 +1,12 @@
+&input
+  flstrfin  = 'structure_factor_all-phonon_rot.dat'
+  steps   = 240000,
+  ksteps1 = 250,
+  ksteps2 = 250,
+  kmin    = -10,
+  kmax    = 10,
+  dim1    = 1,
+  dim2    = 2,
+  Np      = 1600,
+  flstrfout = 'structure_factor_all-phonon_broad.dat'
+/

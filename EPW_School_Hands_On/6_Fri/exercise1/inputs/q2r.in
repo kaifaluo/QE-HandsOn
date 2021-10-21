@@ -1,0 +1,3 @@
+&input
+ fildyn='si.dyn', flfrc = 'si.444.fc'
+/

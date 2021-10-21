@@ -1,0 +1,12 @@
+Phonons of Silicon
+&inputph
+   amass(1)= 28.0855,
+   prefix = 'si'
+   outdir = './'
+   ldisp = .true.
+   fildyn = 'si.dyn'
+   tr2_ph = 1.0d-12
+   nq1 = 4
+   nq2 = 4
+   nq3 = 4
+/
